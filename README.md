@@ -1,7 +1,9 @@
 # 19CS301Module8
 EXPTNO.8a Program to find Find the simple interest
 
-### Aim: To Write a Python Program to find Find the simple interest by getting the principal, rate and time value from the user
+### Aim: 
+To Write a Python Program to find Find the simple interest by getting the principal, rate and time value from the user
+
 ### Algorithm:
 
 STEP 1: Start.
@@ -16,6 +18,9 @@ STEP 7: Stop.
 
 ### Program:
 ```
+Reg no-212223070007
+Name-Gopinath G
+
 def simpleInterest(p,t,r):
       si = p*t*r/100
        return si
@@ -26,15 +31,17 @@ t = eval(input())
 ### Output:
 ![image](https://github.com/user-attachments/assets/0cc71222-9697-4545-a937-b330407cbc02)
 
+### Result: 
+Thus the Python Program to find Find the simple interest by getting the principal, rate and time value from the user
+was executed successfully .
 
 
-
-
-### Result: Thus, the given program is implemented and executed successfully .
 
 EXPTNo.8b program to display elements from a list, present at odd index positions
 
-### Aim: To Write a python program to display elements from a list, present at odd index positions
+### Aim: 
+To Write a python program to display elements from a list, present at odd index positions
+
 ### Algorithm:
 
 STEP 1: Start.
@@ -53,6 +60,10 @@ STEP 7: Stop.
 
 ### Program:
 ```
+Reg no-212223070007
+Name-Gopinath G 
+
+
 def odd(a):
          l=[]
           for i in range(a):
@@ -63,17 +74,18 @@ for i in range(a):
                 print(l[i], end=" ")
  a = int(input())
 odd(a)
+
 ```
 ### Output:
 ![image](https://github.com/user-attachments/assets/a13fba7c-36b5-4227-98c1-82ab22a7804a)
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result: 
+Thus the python program to display elements from a list, present at odd index positions was executed successfully .
  
 
-EXPT NO>8C To Write a python program to Given the participants'	score sheet for your University Sports Day, you are required to find the runner-up score
-### Aim: To Write a python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them 
-         in a list and find the score of the runner-up.
-
+EXPT NO>8C 
+### Aim: 
+To Write a python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them 
 
 ### Algorithm:
 STEP 1: Start.
@@ -90,25 +102,31 @@ STEP 8: Stop.
 
 
 ### Program:
-```if  name	== '   main    ':
+```
+Reg no-212223070007
+Name-Gopinath G
+
+if  name	== '   main    ':
           n = int(input())
           arr = map(int, input().split())
           arr2 = list(set(arr))
           arr2.sort()
 print(arr2[-2])
-
+```
 ### Output:
  
 ![image](https://github.com/user-attachments/assets/032939c0-f500-4bbb-9b19-87b3c54d8454)
 
  
 
-### Result: Thus, the given program is implemented and executed successfully .
+### Result: 
+Thus the python program to Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them was executed successfully .
  
 
 
 EX: 8.d program to square all the even numbers and cube all odd numbers from a list of integers
-### Aim: To Develop a python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list.
+### Aim: 
+To Develop a python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list.
 
 
 ### Algorithm:
@@ -125,6 +143,9 @@ STEP 8 : Stop.
 
 ### Program:
 ```
+Reg no-212223070007
+Name-Gopinath G
+
 cube = lambda x: x**2 if x%2==0 else x**3
 def fun(f,l):
      l1=[]
@@ -138,8 +159,9 @@ f,l = int(input()),int(input())
 ![image](https://github.com/user-attachments/assets/4a9076d8-a2cf-44e1-b7d1-e638b7edf12f)
 
 
-
-### Result: Thus, the given program is implemented and executed successfully .
+### Result: 
+Thus the python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list.
+was executed successfully .
  
 
 
