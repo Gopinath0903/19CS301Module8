@@ -162,6 +162,42 @@ f,l = int(input()),int(input())
 ### Result: 
 Thus the python program to square all the even numbers and cube all odd numbers from a list of integers. Get the starting and ending range to create a list.
 was executed successfully .
+
+
+ EX: 8.e print the sentence by reversing
  
+### Aim:
+The included code stub will read a sentence, , from STDIN.
+
+Ti[ry to print the sentence by reversing each word in sentence
+
+### Algorithm:
+
+1. **Read a sentence** from the user.
+2. **Split** the sentence into words.
+3. **For each word** in the list:
+
+   * Reverse the word.
+   * Print the reversed word with a space.
+
+
+### Program:
+```
+Reg no-212223070007
+Name-Gopinath G
+
+n=input().split()
+for i in n:
+    print(i[::-1],end=" ")
+
+
+```
+### Output:
+![image](https://github.com/user-attachments/assets/e8d90635-aa1f-4824-8b5a-ba2f7a2506dd)
+
+
+### Result
+Thus thw included code stub will read a sentence, , from STDIN was executed successfully
+
 
 
